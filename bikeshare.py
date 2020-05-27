@@ -225,7 +225,10 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+def print_detail():
+    for row_index,row in dfn.head(n=5).iterrows():
+                print('\nrow number:',row_index, '\n-------------')
+                print(row)	
 def main():
     while True:
         # call the method retuning data    
@@ -243,9 +246,7 @@ def main():
         
         while user_input == 'yes':
             #iterate through each row of dataframe
-            for row_index,row in dfn.head(n=5).iterrows():
-                print('\nrow number:',row_index, '\n-------------')
-                print(row)
+            print_detail()
             
             user_input = input('\nWould you like print details rows? Enter yes or no.\n')
             if user_input =='yes':

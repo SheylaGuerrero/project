@@ -1,15 +1,24 @@
 ### Date created
-Include the date you created this project and README file.
+27/05/2020
 
 ### Project Title
-Replace the Project Title
+GitHub and Python
 
 ### Description
-Describe what your project is about and what it does
+Storege changes on python file 
 
 ### Files used
-Include the files used
+bikeshare.py
+github cloned pdsnd_github.git
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity Course
 
+### Final Date Project
+29/05/2020
+
+### Resources used in the project
+Python
+Atom
+GitHub
+Git

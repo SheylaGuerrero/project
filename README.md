@@ -16,3 +16,9 @@ Udacity Course
 
 ### Final Date Project
 29/05/2020
+
+### Resources used in the project
+Python
+Atom
+GitHub
+Git

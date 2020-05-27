@@ -228,9 +228,12 @@ def user_stats(df):
 
 def main():
     while True:
-              
+        # call the method retuning data    
         city, month, day,filteropt= get_filters()
+
+	#variable storage data from get_filters method
         df = load_data(city, month, day,filteropt)
+
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
